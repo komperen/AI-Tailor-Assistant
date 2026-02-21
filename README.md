@@ -1,4 +1,4 @@
-# AI-Based Human Body Measurement System for Tailoring & Fashion E-Commerce
+# AI- Tailoring  Assistant
 
 This project is a real-time body measurement API built with **Flask**, **MediaPipe**, **OpenCV**, and **PyTorch**. By analyzing **front and side pose images** of a person, it calculates accurate human body measurements useful for tailoring, clothing size prediction, and virtual fitting rooms.
 
@@ -9,10 +9,9 @@ This project is a real-time body measurement API built with **Flask**, **MediaPi
 ## Features
 
 - Real-time image-based body measurement
-- AI-powered depth estimation using **MiDaS**
+- AI-powered depth estimation using **MiDaS Medium**
 - Measurement accuracy with a deviation of **±2-3 cm**
-- Calibrates scale using an **A4 paper** as a reference object
-- Easily integratable into fashion e-commerce or tailoring platforms
+- Integration with Local LLM use OLLAMA for AI Summary Measurement
 - No external APIs — runs entirely on your local or server environment
 
 ---
@@ -31,12 +30,6 @@ This project is a real-time body measurement API built with **Flask**, **MediaPi
 ---
 
 # How It Works
-
-1. Detects key landmarks using **MediaPipe Pose** (shoulders, hips, knees, ankles).
-2. Uses **A4 paper** in the image to calibrate real-world scale from pixels.
-3. Enhances width and depth estimation using the **MiDaS depth AI model**.
-4. Calculates measurements using geometric approximations (**elliptical body model**).
-5. Returns measurement data in **JSON format**.
 
 
 ## How to Run
@@ -111,5 +104,8 @@ PRs and suggestions are welcome! Fork this repo, raise an issue, or open a pull 
 
 MIT License. Feel free to use this for personal or commercial projects — just give credit.
 
+
+##  Credit to 
+https://github.com/JavTahir/Live-Measurements-Api.git
 
 
