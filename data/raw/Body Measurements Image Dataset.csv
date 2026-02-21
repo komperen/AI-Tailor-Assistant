@@ -1,0 +1,7 @@
+id;gender;height_cm;chest_cm;waist_cm;hip_cm;arm_circumference_cm;arm_length_cm;thigh_cm;calf_cm;source;notes
+1;female;162;91;72;93;28;56;60;35;public_body_measurements;
+2;male;184;110;99;103;37;65;60;42;public_body_measurements;
+3;male;175;83;73;81;24;56;48;33;public_body_measurements;
+4;female;172;86;77;80;25;58;55;33;public_body_measurements;
+5;female;165;90;73;76;25;55;56;34;public_body_measurements;
+6;male;176;90;70;84;26;66;48;34;public_body_measurements;
